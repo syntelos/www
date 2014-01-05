@@ -1,1 +1,1 @@
-./appengine-java-sdk/1.3.7/bin/appcfg.sh -e john.douglas.pritchard@gmail.com update war
+../appengine-java-sdk/1.6.6/bin/appcfg.sh -e jdp@syntelos.com update war
