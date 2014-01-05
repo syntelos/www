@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.lookup</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_lookup</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/lookup.xml</doc:location>
+ <doc:desc type="text/plain">
+
+   Lookup a library member by canonical name. If 'qname' is
+   "Syntelos", then return the global connection object.
+
+ </doc:desc>
+
+ <doc:param doc:param.name="qname">
+  <doc:param.class>String</doc:param.class>
+  <doc:desc type="text/plain">
+
+   Dotted canonical name, eg, "Syntelos.lookup".
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class></doc:param.class>
+  <doc:desc type="text/plain">
+
+   Collection member, or null.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.parent</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_SVG_parent</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/parent.xml</doc:location>
+ <doc:desc type="text/html">
+
+ </doc:desc>
+
+ <doc:param doc:param.name="elem">
+  <doc:param.class>Element</doc:param.class>
+  <doc:desc type="text/html">
+
+   An element which may have a containing parent 'svg:svg' element.
+   If it has local name 'svg' it is returned.
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>SVGSVGElement</doc:param.class>
+  <doc:desc type="text/html">
+
+   Null or an 'svg:svg' element.  If the argument 'elem' node has
+   local name 'svg' it is returned (without looking at its parent).
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<js:client id="user"
+         autom="user"
+         width="308px"
+      xmlns:js="http://www.syntelos.org/client">
+
+ <js:page id="init">
+
+  <js:text id="email">
+   <js:validate><![CDATA[^[a-zA-Z0-9._%-]+@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,4}$]]></js:validate>
+   <js:error>Incorrect format for email address.</js:error>
+  </js:text>
+
+  <js:submit id="login">
+   <js:request>
+    <js:method>GET</js:method>
+    <js:ref>"/user?op=login?email="+email</js:ref>
+   </js:request>
+   <js:response>
+    <js:next>login</js:next>
+   </js:response>
+  </js:submit>
+
+  <js:submit id="create">
+   <js:request>
+    <js:method>GET</js:method>
+    <js:ref>"/user?op=create?email="+email</js:ref>
+   </js:request>
+   <js:response>
+    <js:next>create</js:next>
+   </js:response>
+  </js:submit>
+
+ </js:page>
+
+ <js:page id="login">
+
+  <js:bind>pad</js:bind>
+
+  <js:bind>nonce</js:bind>
+
+  <js:password id="password" />
+
+  <js:submit id="login">
+   <js:request>
+    <js:method>POST</js:method>
+    <js:ref>"/user?op=login"</js:ref>
+    <js:script>
+     var md = new md5();
+     md.updateString(password);
+     md.updateHex(pad);
+     md.updateHex(nonce);
+     password = md.hashHex();
+    </js:script>
+   </js:request>
+   <js:response>
+    <js:success>
+     <js:next>logout</js:next>
+    </js:success>
+   </js:response>
+  </js:submit>
+
+  <js:submit id="cancel">
+   <js:next>init</js:next>
+  </js:submit>
+
+ </js:page>
+
+ <js:page id="create">
+
+  <js:text id="name">
+   <js:validate><![CDATA[^[a-zA-Z0-9 _',\.%@!+-|~\&]{4,36}$]]></js:validate>
+   <js:error>Please reformat 'name', require 4 to 36 characters including letters, numbers, '. , _ % @ ! + - | ~ &amp;' and space.</js:error>
+  </js:text>
+
+  <js:password id="password">
+   <js:validate><![CDATA[^[a-zA-Z0-9 \.,_%@!+-|~\&]{6,16}$]]></js:validate>
+   <js:error>Please choose another 'password', require 6 to 16 characters including letters, numbers, '. , _ % @ ! + - | ~ &amp;' and space.</js:error>
+  </js:password>
+
+  <js:bind>nonce</js:bind>
+
+  <js:submit id="create">
+   <js:request>
+    <js:method>POST</js:method>
+    <js:ref>"/user?op=create"</js:ref>
+    <js:script>
+     var md = new md5();
+     md.updateString(password);
+     md.updateHex(nonce);
+     password = md.hashHex();
+    </js:script>
+   </js:request>
+   <js:response>
+    <js:success>
+     <js:next>logout</js:next>
+    </js:success>
+   </js:response>
+  </js:submit>
+
+  <js:submit id="cancel">
+   <js:next>init</js:next>
+  </js:submit>
+
+ </js:page>
+
+ <js:page id="logout">
+
+  <js:text id="email" readonly="true" />
+
+  <js:submit id="logout">
+   <js:request>
+    <js:method>GET</js:method>
+    <js:ref>"/user?op=logout"</js:ref>
+    <js:script>
+     Syntelos.client.user.user = null;
+    </js:script>
+   </js:request>
+   <js:response>
+    <js:success>
+     <js:next>init</js:next>
+    </js:success>
+   </js:response>
+  </js:submit>
+
+ </js:page>
+
+</js:client>

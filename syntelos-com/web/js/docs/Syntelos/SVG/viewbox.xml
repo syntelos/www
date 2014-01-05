@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.viewbox</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_SVG_viewbox</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/viewbox.xml</doc:location>
+ <doc:desc type="text/plain">
+
+  Normal script interface to viewbox integer values.
+
+ </doc:desc>
+
+ <doc:param doc:param.name="elem">
+  <doc:param.class>Element</doc:param.class>
+  <doc:desc type="text/plain">
+
+   An 'svg:svg' element or which may have an attribute named
+   'viewBox', or may have a containing 'svg:svg' element with a view
+   box.
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>Array</doc:param.class>
+  <doc:desc type="text/plain">
+
+   Null or an array of four viewbox float values.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

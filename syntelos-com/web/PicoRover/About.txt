@@ -1,0 +1,7 @@
+
+See http://wiki.xprize.frednet.org/index.php/User:Jdp/Mockup_Projects#PicoRover.wrl
+
+ In this directory, run
+
+    ./run.sh
+

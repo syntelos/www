@@ -1,0 +1,119 @@
+
+John Pritchard
+
+Software Engineer specialized to Internet Applications in Java
+
+High performance, purpose built internet applications are a personal passion.  Expertise in application protocols including HTTP, with REST architectural principles for interoperability and scalability.  Implementation in Java with special experience over Sun Solaris, Linux and MacOSX.   My strengths lie in careful design for great interoperability, leading development, or just plain building a world class service.  Experienced in Web API (network interface) integration, specification and implementation, and declarative and procedural language design.  Responsible for correct, scalable and secure solutions in an economic environment -- rationalizing disparate technology, engineering and business constraints for the best fit solution.  
+
+
+Commercial Experience: 13 Years 
+Contact: jdp@syntelos.com 
+Website: http://www.john-pritchard.com/ 
+Website: http://www.syntelos.com/ 
+Website: http://www.wtkx.org/
+
+Principal Work Experience
+
+
+President at Syntelos Commercial Network Services 
+
+
+(Periodic consulting and open source development since 1996)
+
+
+Personal consulting services for Application and Product development.  Syntelos is also an internet service product in development.  This personal software project is written in Java, and constructed entirely of custom components for delivering and creating web applications.  Technologies employed include Java Sockets and Threads for HTTP.  
+
+
+Executive Director of Product Development at Ecensity 
+
+
+December 2001 — May 2006 
+
+
+Designed and developed the software product of the company from the CEOs strategic message for personalization in the presentation layer.   See Edo6.  Technologies employed include core Java, XML, W3C DOM for a dynamic programming language.    Responsibilities included principal design and development, with follow on team (4) establishment and direction. 
+
+
+Field Application Engineer at SilverStream Software 
+
+
+November 1998 — December 2001
+
+
+Addressing hard problems and performance issues for J2EE Application Server consulting clients.  Application performance and security analysis.  Application and component development.  J2EE projects include the full J2EE stack including Servlets, EJB, JMS, JNDI, JDBC and other technologies.
+
+
+Systems Developer at Datek Online 
+
+
+August 1996 — October 1998
+
+
+Designed and developed the first real time streaming stock quote service, the Datek Streamer in its client and server prototypes, produced and supported the beta Streamer Applet.  Identified the technique for HTTP streaming across fire walls and proxies for the continuous delivery of real time market data.  The Datek Streamer included a Server written in Java using Sockets and Threads, and an Applet Client written in Java AWT.  The Streamer Server (written by Josh Levine) handled 15,000 customers.
+
+
+Some representative consulting engagements
+Goldman Sachs 
+Two engagements from SilverStream, one to assess and repair issues in an ongoing project, and another to be on site during the Y2K rollover. 
+
+CalPERS 
+One engagement from SilverStream, to assess and repair database performance issues in an ongoing project. 
+
+Dassault Systemes 
+Two engagements from SilverStream, one to identify a solution for the execution of exteral processes, and another to present IBM IDE integration. 
+
+Netlabs 
+Complete an interactive application already begun using Tomcat, Spring and Hibernate for 3COM Marketing. 
+
+Some representative engagement technologies
+J2EE Application Servers 
+General expertise in the J2EE Servlet Specification (use and implementation). Experience using its implementations and J2EE containers including Tomcat, SilverStream, WebSphere, and (unfortunately) JBOSS. 
+
+Web Application Frameworks 
+Experience with general MVC, Spring, Portlets, and Servlets. The product designed and implemented for Ecensity, Edo6, was a network centric web application framework.   Many others, as well.
+
+Database and datastore technologies 
+Expertise with the JDBC API (use and implementation), data caching (persistent, in memory and clustered), object relational mapping techniques (static and dynamic). Experience with Hibernate among others. Familiar with standard SQL92 and its some of its variants as for MySQL, Postgres, MS SQL Server, HSQL, H2. Familiar with the use of Query Plans for SQL optimization. Implemented the JDBC API for a caching ORM solution. Implemented the JDBC API over a web service. Implemented AWS S3 datastore client protocol. Familiar with the datastore Atom Publishing Protocol (GData). 
+
+Web Services and AJAX 
+Experience in RESTful Web Services and AJAX including design, implementation and use. HTTP centricity, as in "Just use HTTP" as a design preference for new Web APIs. AJAX development for UI, toolkits and frameworks. The product "Ecensity Edo6" can be characterized as a Web Services application environment. 
+
+Performance techniques 
+Implemented numerous performance techniques including Object Relational (ORM) data caching, in memory (server side) asynchronous data source stores, process throughput culling and throttling, dedicated backend data broadcast networking, network interface design and implementation. 
+
+
+
+Education
+Columbia University, School of General Studies
+
+Economics (IEOR), January 1991- June 1996 
+Five years coursework in Economics and Computer Science, degree incomplete.
+Read a great deal of Computer Science from the library in systems theory, reactive and concurrent systems.
+
+George Washington University 
+
+Mechanical Engineering, 1986 
+First year coursework in Mechanical Engineering. 
+
+
+Affiliations
+Association for Computing Machinery (ACM) 
+
+
+Open Source
+
+
+Google Lunar X Prize Official Team FREDNET
+
+The challenge of the GLXP is to land a rover on the Moon, return HD video, and to traverse at least five hundred meters of the lunar surface.  Team FREDNET is the 100% open source competitor for the GLXP.  We use wiki and other web technologies in our open source work.  My role in the team is to participate in the requirements, specification, design and implementation of the terrestrial mission systems.  It's a very interesting challenge to work among so many different disciplines in a 100% volunteer, open source format.
+
+Hobbies
+SUNSpot, Ajile
+RTSJ, embedded systems, ARM and Ajile.
+
+JOGL
+GL, GLSL, gaming, immersion, COLLADA, KML. 
+
+Keywords 
+
+Java, HTTP, REST, Web Services
+

@@ -1,0 +1,1 @@
+<span class="tool logon"><b><a href="{{=logonUrl}}">{{=logonText}}</a></b></span><span class="tool logon"><a href="http://www.google.com/accounts">Account</a></span><span class="tool logon"><a href="http://www.google.com/profiles/me">Profile</a></span>

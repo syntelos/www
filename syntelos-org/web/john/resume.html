@@ -1,0 +1,779 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+
+
+/* default css */
+
+table {
+  font-size: 1em;
+  line-height: inherit;
+}
+
+
+tr {
+  
+  text-align: left;
+  
+}
+
+
+div, address, ol, ul, li, option, select { 
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 0px;
+}
+
+body {
+  margin: 6px;
+  padding: 0px;
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  background-color: #ffffff;
+}
+
+@media screen {
+  html.pageview {
+    background-color: #f3f3f3 !important;
+  }
+
+  
+    
+  body { 
+    min-height: 1100px; 
+  }
+  * html body { 
+    height: 1100px; 
+  }
+  .pageview body {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 2px solid #bbb;
+    border-bottom: 2px solid #bbb;
+    width: 648px !important;
+    margin: 15px auto 25px !important;
+    padding: 40px 50px; 
+  }
+  /* IE6 */
+  * html.pageview body {
+    overflow-x: auto;
+  }
+  
+  
+
+  
+
+}
+
+h6 { font-size: 10pt }
+h5 { font-size: 11pt }
+h4 { font-size: 12pt }
+h3 { font-size: 13pt }
+h2 { font-size: 14pt }
+h1 { font-size: 16pt }
+
+blockquote {padding: 10px; border: 1px #DDD dashed }
+
+a img {border: 0}
+
+.pb {height: 1px}
+
+div.google_header, div.google_footer {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/* Table of contents */
+.editor div.writely-toc {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+}
+.writely-toc > ol {
+  padding-left: 3em;
+  font-weight: bold;
+}
+ol.writely-toc-subheading {
+  padding-left: 1em;
+  font-weight: normal;
+}
+.writely-toc-none {
+  list-style-type: none;
+}
+.writely-toc-decimal {
+  list-style-type: decimal;
+}
+.writely-toc-upper-alpha {
+  list-style-type: upper-alpha;
+}
+.writely-toc-lower-alpha {
+  list-style-type: lower-alpha;
+}
+.writely-toc-upper-roman {
+  list-style-type: upper-roman;
+}
+.writely-toc-lower-roman {
+  list-style-type: lower-roman;
+}
+.writely-toc-disc {
+  list-style-type: disc;
+}
+
+/* end default css */
+
+
+  /* default print css */
+  
+  @media print {
+    body { 
+      padding: 0; 
+      margin: 0; 
+    }
+
+    div.google_header, div.google_footer {
+      display: block;
+      min-height: 0;
+      border: none;
+    }
+
+    div.google_header {
+      flow: static(header);
+    }
+
+    /* used to insert page numbers */
+    div.google_header::before, div.google_footer::before {
+      position: absolute;
+      top: 0;
+    }
+
+    div.google_footer {
+      flow: static(footer);
+    }
+
+    /* always consider this element at the start of the doc */
+    div#google_footer {
+      flow: static(footer, start);
+    }
+
+    span.google_pagenumber {
+      content: counter(page);
+    }
+
+    span.google_pagecount {
+      content: counter(pages);
+    }
+
+    /* Table of contents */
+    #WritelyTableOfContents a::after {
+      content: leader('.') target-counter(attr(href), page);
+    }
+
+    #WritelyTableOfContents a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  @page {
+    @top {
+      content: flow(header);
+    }
+    @bottom {
+      content: flow(footer);
+    }
+  }
+  /* end default print css */
+ 
+
+/* custom css */
+
+
+/* end custom css */
+
+
+
+  /* ui edited css */
+  
+  body {
+    font-family: Verdana;
+    
+    font-size: 10.0pt;
+    line-height: normal;
+    background-color: #ffffff;
+  }
+  /* end ui edited css */
+
+
+
+/* editor CSS */
+.editor a:visited {color: #551A8B}
+.editor table.zeroBorder {border: 1px dotted gray}
+.editor table.zeroBorder td {border: 1px dotted gray}
+.editor table.zeroBorder th {border: 1px dotted gray}
+
+
+.editor div.google_header, .editor div.google_footer {
+  border: 2px #DDDDDD dashed;
+  position: static;
+  width: 100%;
+  min-height: 2em;
+}
+
+.editor .misspell {background-color: yellow}
+
+
+.editor .pb {
+  border-top: 1px dashed #C0C0C0; 
+  border-bottom: 1px dashed #C0C0C0
+}
+.editor .writely-comment {
+  font-size: 9pt; 
+  line-height: 1.4; 
+  padding: 1px; 
+  border: 1px dashed #C0C0C0
+}
+
+
+/* end editor CSS */
+</style>
+
+
+<base target="_top">
+
+</head>
+
+<body
+    
+    revision="dccppqhz_60fv8vsvdc:187">
+
+    
+    
+<div id=resume style=PADDING:8px>
+  <h2 id=yqln>
+    John Pritchard<br id=yqln0>
+  </h2>
+  <h3 id=yqln1 style="DISPLAY:inline; FONT-SIZE:14px">
+    Software Engineer specialized to Internet Applications in Java
+  </h3>
+  <p id=yqln2 style=MARGIN-LEFT:40px>
+    <br id=yqln3>
+  </p>
+  <p id=yqln4 style=MARGIN-LEFT:40px>
+    High performance internet applications are a personal passion.&nbsp;
+    Expertise in application protocols including HTTP, with REST architectural
+    principles for interoperability and scalability.&nbsp; Implementation in
+    Java over Linux, MacOSX and Sun Solaris.&nbsp;&nbsp; My strengths lie in
+    leading development, or just plain building a world class service.&nbsp;
+    Responsible for correct, scalable and secure solutions in a volatile
+    business environment -- rationalizing disparate technology, engineering and
+    business constraints for the best fit solution.<br id=yqln5>
+  </p>
+  <p id=yqln6 style=MARGIN-LEFT:40px>
+    <br id=yqln7>
+  </p>
+  <p id=yqln8 style=MARGIN-LEFT:40px>
+    <b id=yqln9>Commercial</b><b class=logoColor id=yqln10> Experience:</b> 12
+    Years<br id=yqln11>
+    <b class=logoColor id=yqln12>Highest Education:</b> Bachelors<br id=yqln13>
+    <b class=logoColor id=yqln14>Contact:</b> <code id=yqln15><a href=mailto:jdp@syntelos.com id=yqln16>jdp@syntelos.com</a></code><br id=yqln17>
+    <b class=logoColor id=yqln18>Website:</b> <code id=yqln19><a href=http://www.john-pritchard.com/ id=yqln20 target=_top>http://www.john-pritchard.com/</a></code><br id=yqln21>
+    <b class=logoColor id=yqln22>Website:</b> <code id=yqln23><a href=http://www.syntelos.com/ id=yqln24 target=_top>http://www.syntelos.com/</a></code><br id=yqln25>
+    <b class=logoColor id=yqln26>Website:</b> <code id=yqln27><a href=http://blog.syntelos.com/ id=yqln28 target=_top>http://blog.syntelos.com/</a></code><br id=yqln29>
+  </p>
+  <div class=profile_module id=yqln30>
+    <div class=profile_module_hd id=yqln31>
+      <h4 id=yqln32>
+        Principal Work Experience<br id=fcij>
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln33>
+      <p id=yqln44 style=MARGIN-LEFT:40px>
+        <br id=yqln45>
+      </p>
+    </div>
+    <div class="profile_module_body border" id=yqln33c>
+      <div id=yqln34c>
+        <b id=yqln35c>President at <u id=jp5m>Syntelos Commercial Network
+        Services</u></b><br id=yqln37c>
+      </div>
+      <br id=yqln38c>
+      <div id=yqln39c style=MARGIN-LEFT:40px>
+        (Continuous since 1996)<br id=fcij0>
+        <br id=fcij1>
+      </div>
+      <p id=yqln42c style="MARGIN-LEFT:40px; TEXT-ALIGN:left">
+        Consulting services for Application and Product development.&nbsp;
+        Syntelos is also an internet service product in development.&nbsp; This
+        software project is written in Java, and constructed entirely of custom
+        components for delivering and creating web applications.&nbsp;
+        Technologies employed include Java Sockets and Threads for HTTP.&nbsp;
+        As an independent research and development project, Syntelos represents
+        a kind of amateur PhD -- amateur in that the research<br id=yqln43c>
+      </p>
+      <p id=yqln44c style=MARGIN-LEFT:40px>
+        <br id=jp5m0>
+      </p>
+    </div>
+    <div class="profile_module_body border" id=yqln46>
+      <div id=yqln47>
+        <b id=yqln48>Executive Director of Product Development at
+        <u id=yqln49>Ecensity</u></b><br id=yqln50>
+      </div>
+      <br id=yqln51>
+      <div id=yqln52 style=MARGIN-LEFT:40px>
+        December 2001 — May 2006<br id=yqln53>
+        <br id=yqln54>
+      </div>
+      <p id=yqln55 style=MARGIN-LEFT:40px>
+        Designed and implemented the software product of the company from the
+        CEOs strategic message for personalization in the presentation layer.
+        &nbsp; See
+        <a href=http://www.john-pritchard.com/edo6 id=x3a_ target=_top title=www.john-pritchard.com/edo6>Edo6</a>.&nbsp;
+        Technologies employed include core Java, XML, W3C DOM for a dynamic
+        programming language.&nbsp; &nbsp;<br id=yqln56>
+      </p>
+      <p id=yqln57 style=MARGIN-LEFT:40px>
+        <br id=yqln58>
+      </p>
+    </div>
+    <div class="profile_module_body border" id=yqln59>
+      <div id=yqln60>
+        <b id=yqln61>Field Application Engineer at <u id=yqln62>SilverStream
+        Software</u></b><br id=yqln63>
+      </div>
+      <br id=yqln64>
+      <div id=yqln65 style=MARGIN-LEFT:40px>
+        November 1998 — December 2001<br id=yqln66>
+        <br id=yqln67>
+      </div>
+      <p id=yqln68 style=MARGIN-LEFT:40px>
+        Addressing hard problems and performance issues for J2EE Application
+        Server consulting clients.&nbsp; Application performance and security
+        analysis.&nbsp; Application and component development.&nbsp; J2EE
+        projects include the full J2EE stack including Servlets, EJB, JMS, JNDI,
+        JDBC and other technologies.<br id=yqln69>
+      </p>
+      <p id=yqln70 style=MARGIN-LEFT:40px>
+        <br id=yqln71>
+      </p>
+    </div>
+    <div class="profile_module_body border" id=yqln72>
+      <div id=yqln73>
+        <b id=yqln74>Systems Developer at <u id=yqln75>Datek Online</u></b><br id=yqln76>
+      </div>
+      <br id=yqln77>
+      <div id=yqln78 style=MARGIN-LEFT:40px>
+        August 1996 — October 1998<br id=yqln79>
+        <br id=yqln80>
+      </div>
+      <p id=yqln81 style=MARGIN-LEFT:40px>
+        Designed and developed the first real time streaming stock quote
+        service, the Datek Streamer in its client and server prototypes.&nbsp;
+        Identified the technique for
+        <a href=http://www.john-pritchard.com/http-streaming id=dhpw target=_top title=www.john-pritchard.com/http-streaming>HTTP
+        streaming</a> across fire walls and proxies for the continuous delivery
+        of real time market data.&nbsp; The Datek Streamer included a Server
+        written in Java using Sockets and Threads, and an Applet Client written
+        in Java AWT.&nbsp; The Streamer Server handled 15,000 customers.<br id=yqln82>
+      </p>
+    </div>
+  </div>
+  <p class=pb id=yqln83 style=page-break-after:always>
+  </p>
+  <br id=yqln84>
+  <div class=profile_module id=yqln85>
+    <div class=profile_module_hd id=yqln86>
+      <h4 id=yqln87>
+        Some representative consulting engagements
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln88>
+      <div id=yqln89>
+        <b id=yqln90>Goldman Sachs</b>
+      </div>
+      <div id=yqln91 style=MARGIN-LEFT:40px>
+        Two engagements from SilverStream, one to assess and repair issues in an
+        ongoing project, and another to be on site during the Y2K rollover.<br id=yqln92>
+      </div>
+      <div id=yqln93>
+        <b id=yqln94>CalPERS</b>
+      </div>
+      <div id=yqln95 style=MARGIN-LEFT:40px>
+        One engagement from SilverStream, to assess and repair database
+        performance issues in an ongoing project.<br id=yqln96>
+      </div>
+      <div id=yqln97>
+        <b id=yqln98>Dassault Systemes</b>
+      </div>
+      <div id=yqln99 style=MARGIN-LEFT:40px>
+        Two engagements from SilverStream, one to identify a solution for the
+        execution of exteral processes, and another to present IBM IDE
+        integration.<br id=yqln100>
+      </div>
+      <div id=yqln101>
+        <b id=yqln102>Netlabs</b>
+      </div>
+      <div id=yqln103 style=MARGIN-LEFT:40px>
+        Complete an interactive application already begun using Tomcat, Spring
+        and Hibernate for 3COM Marketing.<br id=yqln104>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln105>
+    <div class=profile_module_hd id=yqln106>
+      <h4 id=yqln107>
+        Some representative engagement technologies
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln108>
+      <div id=yqln109>
+        <b id=yqln110>J2EE Application Servers</b>
+      </div>
+      <div id=yqln111 style=MARGIN-LEFT:40px>
+        General expertise in the J2EE Servlet Specification (use and
+        implementation). Experience using its implementations and J2EE
+        containers including Tomcat, SilverStream, WebSphere, and
+        (unfortunately) JBOSS.<br id=yqln112>
+      </div>
+      <div id=yqln113>
+        <b id=yqln114>Web Application Frameworks</b>
+      </div>
+      <div id=yqln115 style=MARGIN-LEFT:40px>
+        Experience with general MVC, Spring, Portlets, and Servlets. The product
+        designed and implemented for Ecensity, Edo6, was an SOA network centric
+        web application framework.<br id=yqln116>
+      </div>
+      <div id=yqln117>
+        <b id=yqln118>Database and datastore technologies</b>
+      </div>
+      <div id=yqln119 style=MARGIN-LEFT:40px>
+        Expertise with the JDBC API (use and implementation), data caching
+        (persistent, in memory and clustered), object relational mapping
+        techniques (static and dynamic). Experience with Hibernate among others.
+        Familiar with standard SQL92 and its some of its variants as for MySQL,
+        Postgres, MS SQL Server, HSQL, H2. Familiar with the use of Query Plans
+        for SQL optimization. Implemented the JDBC API for a caching ORM
+        solution. Implemented the JDBC API over a web service. Implemented AWS
+        S3 datastore client protocol. Familiar with the datastore Atom
+        Publishing Protocol (GData).<br id=yqln120>
+      </div>
+      <div id=yqln121>
+        <b id=yqln122>Web Services and AJAX</b>
+      </div>
+      <div id=yqln123 style=MARGIN-LEFT:40px>
+        Experience in RESTful Web Services and AJAX including design,
+        implementation and use. HTTP centricity, as in "Just use HTTP" as a
+        design preference for new Web APIs. AJAX development for UI, toolkits
+        and frameworks. The product
+        "<a href=http://www.john-pritchard.com/edo6 id=yqln124 target=_top>Ecensity
+        Edo6</a>" can be characterized as a Web Services application
+        environment.<br id=yqln125>
+      </div>
+      <div id=yqln126>
+        <b id=yqln127>Performance techniques</b>
+      </div>
+      <div id=yqln128 style=MARGIN-LEFT:40px>
+        Implemented numerous performance techniques including Object Relational
+        (ORM) data caching, in memory (server side) asynchronous data source
+        stores, process throughput culling and throttling, dedicated backend
+        data broadcast networking, network interface design and implementation.<br id=yqln129>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln130>
+    <div class=profile_module_hd id=yqln131>
+      <h4 id=yqln132>
+        Some representative technology standards
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln133>
+      <div id=yqln134>
+        <b id=yqln135>RFC
+        <a href=http://tools.ietf.org/html/rfc2616 id=yqln136 target=_top>2616</a>,
+        <a href=http://tools.ietf.org/html/rfc2109 id=yqln137 target=_top>2109</a>,
+        <a href=http://tools.ietf.org/html/rfc2617 id=yqln138 target=_top>2617</a>,
+        <a href=http://tools.ietf.org/html/rfc2817 id=yqln139 target=_top>2817</a>,
+        <a href=http://tools.ietf.org/html/rfc id=yqln140 target=_top>4918</a>,
+        <a href=http://tools.ietf.org/html/rfc id=yqln141 target=_top>3621</a></b>
+      </div>
+      <div id=yqln142 style=MARGIN-LEFT:40px>
+        Well familiar as user and implementor with HTTP, Session Management,
+        Access Authentication, Upgrading, Single Sign On as Certificate based
+        access authentication, Editing and SIP.<br id=yqln143>
+      </div>
+      <div id=yqln144>
+        <b id=yqln145>RFC
+        <a href=http://tools.ietf.org/html/rfc5023 id=yqln146 target=_top>5023</a>,
+        <a href=http://tools.ietf.org/html/rfc3920 id=yqln147 target=_top>3920</a>,
+        <a href=http://tools.ietf.org/html/rfc4825 id=yqln148 target=_top>4825</a>
+        </b>
+      </div>
+      <div id=yqln149 style=MARGIN-LEFT:40px>
+        Familiar with various application level protocols including Atom
+        Publishing, XMPP and XCAP.<br id=yqln150>
+      </div>
+      <div id=yqln151>
+        <b id=yqln152>Standards use and implementation</b>
+      </div>
+      <div id=yqln153 style=MARGIN-LEFT:40px>
+        Generally familiar with the
+        <a href=http://www.dataportability.org/ id=yqln154 target=_top>Data
+        Portability</a> standards. &nbsp; Familiar with the terms and techniques
+        of interface and format specification and implementation.<br id=yqln155>
+      </div>
+    </div>
+  </div>
+  <p class=pb id=yqln156 style=page-break-after:always>
+  </p>
+  <br id=yqln157>
+  <div class=profile_module id=yqln158>
+    <div class=profile_module_hd id=yqln159>
+      <h4 id=yqln160>
+        Software Technology Projects
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln161>
+      <div id=yqln162>
+        <b id=yqln163>
+        <a href=http://www.john-pritchard.com/iou id=yqln164 target=_top>iou</a><br id=yqln165>
+        </b>
+      </div>
+      <div id=yqln166 style=MARGIN-LEFT:40px>
+        The iou project is an open source toolbox full of server side structures
+        and helpers. The most current version is in offline development.<br id=yqln167>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln168>
+      <div id=yqln169>
+        <b id=yqln170>
+        <a href=http://www.john-pritchard.com/apd id=yqln171 target=_top>apd</a><br id=yqln172>
+        </b>
+      </div>
+      <div id=yqln173 style=MARGIN-LEFT:40px>
+        The apd server (1998/9) was a small, resource oriented HTTP application
+        server. Similar sense but different to the W3C JigSaw. Resources are I/O
+        stream devices like files and sockets. Apd excelled at serving static
+        content. Apd included a simple and effective application programming
+        structure.<br id=yqln174>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln175>
+      <div id=yqln176>
+        <b id=yqln177>
+        <a href=http://www.john-pritchard.com/rhinojetty id=yqln178 target=_top>rhinojetty</a><br id=yqln179>
+        </b>
+      </div>
+      <div id=yqln180 style=MARGIN-LEFT:40px>
+        The rhinojetty project is an open source HTTP Server implemented in
+        JavaScript over Java (Mozilla Rhino). It includes "RJ" JavaScript Server
+        Pages, a unique dialect of JSP and JavaScript Classes and Functions.
+        Rhinojetty includes a fast compiled page product engine -- changed pages
+        are compiled to interpreted output byte stream binary for extreme
+        responsiveness.<br id=yqln181>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln182>
+      <div id=yqln183>
+        <b id=yqln184>
+        <a href=http://www.john-pritchard.com/sx id=yqln185 target=_top>sx</a><br id=yqln186>
+        </b>
+      </div>
+      <div id=yqln187 style=MARGIN-LEFT:40px>
+        SX is the current HTTP server software for syntelos.com.<br id=yqln188>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln189>
+      <div id=yqln190>
+        <b id=yqln191>
+        <a href=http://www.john-pritchard.com/openfoam id=yqln192 target=_top>openfoam</a><br id=yqln193>
+        </b>
+      </div>
+      <div id=yqln194 style=MARGIN-LEFT:40px>
+        Open foam is a name for OAEP padding under RC (4). The combination is a
+        code level experiment in considering alternative key stream generators
+        for RC with this padding.<br id=yqln195>
+        <br id=yqln196>
+        This experiment seeks answers to two questions. What are the
+        requirements for a key stream generator over this padding? And, is there
+        a provably secure key stream generator for this combination?<br id=yqln197>
+        <br id=yqln198>
+        The openfoam code is offline.<br id=yqln199>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln200>
+      <div id=yqln201>
+        <b id=yqln202>
+        <a href=http://www.john-pritchard.com/ id=yqln203 target=_top>edo6</a><br id=yqln204>
+        </b>
+      </div>
+      <div id=yqln205 style=MARGIN-LEFT:40px>
+        Edo6 is an interpreted server side programming language designed for
+        extreme flexibility in the use, construction and personalization of its
+        applications. Business analysts manage an application system on behalf
+        of groups of users in a production environment. Application
+        construction, management and reconfiguration features.<br id=yqln206>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln207>
+      <div id=yqln208>
+        <b id=yqln209>
+        <a href=http://www.john-pritchard.com/ id=yqln210 target=_top>jing</a><br id=yqln211>
+        </b>
+      </div>
+      <div id=yqln212 style=MARGIN-LEFT:40px>
+        The jing project is an incomplete (open) source base for SWF (Adobe
+        Flash binaries) assembly and disassembly. It provides the initial grunt
+        work for an SWF code base, but not an implementation.<br id=yqln213>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln214>
+    <div class=profile_module_hd id=yqln215>
+      <h4 id=yqln216>
+        Research &amp; Development
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln217>
+      <div id=yqln218>
+        <b id=yqln219>
+        <a href=http://www.john-pritchard.com/interaction id=yqln220 target=_top>Interaction</a><br id=yqln221>
+        </b>
+      </div>
+      <div id=yqln222 style=MARGIN-LEFT:40px>
+        Interaction is a subtle subject with many aspects for internet
+        application engineering.&nbsp; Interface architecture solves all
+        problems by focusing definition, solution, design and development on
+        user and network interfaces.&nbsp;<br id=yqln223>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln224>
+      <div id=yqln225>
+        <b id=yqln226>
+        <a href=http://www.john-pritchard.com/resp id=yqln227 target=_top>Representational
+        State Programming</a><br id=yqln228>
+        </b>
+      </div>
+      <div id=yqln229 style=MARGIN-LEFT:40px>
+        Scalability for high volume applications in constructive
+        transactions.&nbsp; RESP extends Roy Fielding's well known
+        Representational State Transfer (REST) architectural style for
+        transactional and constructive web applications.&nbsp; RESP describes
+        ongoing research and development into the application of the principles
+        of Fielding's REST to the dynamic programming of interactive
+        applications.<br id=yqln230>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln231>
+      <div id=yqln232>
+        <b id=yqln233>
+        <a href=http://www.john-pritchard.com/ifa id=yqln234 target=_top>Interface
+        Architecture</a><br id=yqln235>
+        </b>
+      </div>
+      <div id=yqln236 style=MARGIN-LEFT:40px>
+        A unified architectural methodology for the design and development of
+        correct, robust and scalable interactive software systems.&nbsp;
+        Interface Architecture reiterates the well known discipline for the
+        specification of network services, and applies these concepts to the
+        principal components of an interactive system including the Graphical
+        User Interface, Web Services and Host APIs.&nbsp; It is simple,
+        effective, and scales to large and distributed development groups.<br id=yqln237>
+      </div>
+    </div>
+  </div>
+  <p class=pb id=yqln238 style=page-break-after:always>
+  </p>
+  <br id=yqln239>
+  <div class=profile_module id=yqln240>
+    <div class=profile_module_hd id=yqln241>
+      <h4 id=yqln242>
+        Education
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln243>
+      <div id=yqln244>
+        <b id=yqln245>Columbia University, School of General Studies<br id=yqln246>
+        </b>
+      </div>
+      <div id=yqln247 style=MARGIN-LEFT:40px>
+        Economics (IEOR), January 1991- June 1996<br id=yqln248>
+        Five years coursework in Economics and Computer Science, degree
+        incomplete.
+      </div>
+    </div>
+    <div class="profile_module_body border" id=yqln249>
+      <div id=yqln250>
+        <b id=yqln251>George Washington University<br id=yqln252>
+        </b>
+      </div>
+      <div id=yqln253 style=MARGIN-LEFT:40px>
+        Mechanical Engineering, 1986<br id=yqln254>
+        First year coursework in Mechanical Engineering.<br id=yqln255>
+        <br id=yqln256>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln257>
+    <div class=profile_module_hd id=yqln258>
+      <h4 id=yqln259>
+        Affiliations
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln260>
+      <div id=yqln261>
+        <div id=yqln262 style=MARGIN-LEFT:40px>
+          <b id=yqln263>Association for Computing Machinery (ACM)<br id=yqln264>
+          </b>
+        </div>
+        <br id=yqln265>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln266>
+    <div class=profile_module_hd id=yqln267>
+      <h4 id=yqln268>
+        Hobbies
+      </h4>
+    </div>
+    <div class=profile_module_body id=yqln269>
+      <div id=yqln270>
+        <div id=yqln271 style=MARGIN-LEFT:40px>
+          <b id=yqln272><a href=http://www.sunspotworld.com/ id=yqln273 target=_top>SUNSpot</a>,
+          <a href=http://www.ajile.com/ id=yqln274 target=_top>Ajile</a><br id=yqln275>
+          </b> RTSJ, embedded systems, ARM and Ajile.
+        </div>
+        <br id=yqln276>
+      </div>
+    </div>
+    <div class=profile_module_body id=yqln277>
+      <div id=yqln278>
+        <div id=yqln279 style=MARGIN-LEFT:40px>
+          <b id=yqln280><a href=http://jogl.dev.java.net/ id=yqln281 target=_top>JOGL</a><br id=yqln282>
+          </b> GL, GLSL, gaming, immersion, COLLADA, KML.
+        </div>
+        <br id=yqln283>
+      </div>
+    </div>
+  </div>
+  <div class=profile_module id=yqln284>
+    <div class=profile_module_body id=yqln285>
+      <p id=yqln286>
+        <b id=yqln287>Keywords</b><br id=yqln288>
+      </p>
+      <div id=yqln289 style=MARGIN-LEFT:40px>
+        Java, HTTP, REST, Web Services
+      </div>
+    </div>
+  </div>
+</div></body>
+</html>

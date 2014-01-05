@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.add</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_add</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/add.xml</doc:location>
+ <doc:desc type="text/plain">
+
+  Add a function (or any non null value) to the community library, and
+  define its properties 'canonicalName', 'localName', 'collectionName'
+  and 'collectionLeaf'.  Update the 'collectionLeaf' property of the
+  container of the 'fconst' object to value 'false'.
+
+ </doc:desc>
+
+ <doc:param doc:param.name="qname">
+  <doc:param.class>String</doc:param.class>
+  <doc:desc type="text/plain">
+
+   The dotted canonical name for this function or global object, eg,
+   "Syntelos.add".
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:param doc:param.name="fconst">
+  <doc:param.class>Object</doc:param.class>
+  <doc:desc type="text/plain">
+
+   A function or other object (by reference).
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>Void</doc:param.class>
+  <doc:desc type="text/plain">
+
+   Silently returns for success, or throws an exception for a null or
+   missing argument or an extremely weird state preventing success.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

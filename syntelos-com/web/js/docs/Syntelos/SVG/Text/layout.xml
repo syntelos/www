@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.Text.layout</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_SVG_Text_layout</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/Text/layout.xml</doc:location>
+ <doc:desc type="text/html">
+
+  <p> Example usage
+  <pre>
+   &amp;lt;text x="10px" font-size="20px" onload="Syntelos.SVG.Text.layout(this,22)"&amp;gt;
+    &amp;nbsp;&amp;lt;tspan y="10px"&amp;gt;First line.&amp;lt;/tspan&amp;gt;
+    &amp;nbsp;&amp;lt;tspan&amp;gt;Second line.&amp;lt;/tspan&amp;gt;
+    &amp;nbsp;&amp;lt;tspan&amp;gt;Third line.&amp;lt;/tspan&amp;gt;
+   &amp;lt;/text&amp;gt;
+  <pre>
+  </p>
+  
+  <p> The 'svg:tspan' children of the argument 'svg:text' element are
+  layed- out as lines of text in a paragraph.  The 'y' position
+  coordinate is required on the first child (tspan), or all children
+  may have the identical value for the 'y' position coordinate.  This
+  function will update the 'y' coordinate values of the second and
+  subsequent children with an offset calculated from the first 'y'
+  plus iterations adding 'height'. </p>
+  
+  <p> When the 'svg:text' element has an 'x' attribute value, and any
+  child (including the first) 'svg:tspan' element is missing an 'x'
+  attribute, this function will create an 'x' attribute on the child
+  'svg:tspan' element with the value from the 'svg:text' element. </p>
+  
+  <p> This function assumes that 'X' and 'Y' attribute values are
+  integers, and assigns 'svg:tspan' element attribute values as
+  strings formatted to include the 'px' (default user coordinates)
+  length unit suffix. </p>
+  
+  <p> This function includes code to use 'y' from the 'svg:text'
+  element when it's missing from the 'svg:tspan' element, but this
+  doesnt seem to work in FF at the time of this writing. </p>
+  
+ </doc:desc>
+
+ <doc:param doc:param.name="text_elem">
+  <doc:param.class>Element</doc:param.class>
+  <doc:desc type="text/plain">
+
+   An 'svg:text' element containing 'svg:tspan' children,
+   each of which are lines in a paragraph
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>Void</doc:param.class>
+  <doc:desc type="text/plain">
+
+   None.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

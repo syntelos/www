@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.Anchor.Text.fill</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_SVG_Anchor_Text_fill</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/Anchor/Text/fill.xml</doc:location>
+ <doc:desc type="text/plain">
+
+  Set or create attribute 'fill' value to 'color' value.
+
+ </doc:desc>
+
+ <doc:param doc:param.name="a_elem">
+  <doc:param.class>Element</doc:param.class>
+  <doc:desc type="text/plain">
+
+   SVG anchor 'svg:a' having child 'svg:text'
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:param doc:param.name="color">
+  <doc:param.class>Object</doc:param.class>
+  <doc:desc type="text/plain">
+
+   Fill attribute value
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>Void</doc:param.class>
+  <doc:desc type="text/plain">
+
+   None.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

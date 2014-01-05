@@ -1,0 +1,43 @@
+                             -*-outline-*-
+
+
+* Notes on '/js/docs/**/*.xml'
+
+** XML namespace "org/syntelos/js/docs"
+
+** generator script 'gen.sh'
+*** edit product for correct representation
+
+** desc @type values
+
+*** text/plain
+
+*** text/html
+
+**** includes code class link
+***** see '/js/docs/Syntelos.xml'
+***** tagged text is a canonical name
+
+**** implied span class link
+***** attribute 'link' is a canonical name
+
+
+** lib.type values
+
+*** function
+**** JS function
+
+*** constant
+**** xmlns strings
+**** intended as immutable
+**** see '/js/docs/Syntelos/SVG/xmlns.xml'
+**** see '/js/docs/Syntelos/XLink/xmlns.xml'
+
+*** collection
+**** top level notes, see '/js/docs/Syntelos.xml'
+
+** param.type values
+
+*** JS classes as used in JS source, 
+**** eg, 'Element', 'String', 'SVGSVGElement', etc.
+**** includes the use of 'Void' as equivalent to no value to mean "None"

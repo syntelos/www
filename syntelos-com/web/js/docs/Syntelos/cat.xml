@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.cat</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_cat</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/cat.xml</doc:location>
+ <doc:desc type="text/plain">
+
+   Concatenate the members of the array 'ary' with the
+   'sep' delimiter string. 
+ 
+ </doc:desc>
+
+ <doc:param doc:param.name="ary">
+  <doc:param.class>Array</doc:param.class>
+  <doc:desc type="text/plain">
+
+    Array of elements used as strings.
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:param doc:param.name="sep">
+  <doc:param.class>String</doc:param.class>
+  <doc:desc type="text/plain">
+
+    Separator string defaults to the empty string.
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class></doc:param.class>
+  <doc:desc type="text/plain">
+
+    Null for a null or empty 'ary' argument.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>

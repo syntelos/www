@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<js:client id="open" css="tools" xmlns:js="http://www.syntelos.org/client">
+
+ <js:page id="init">
+
+  <js:text id="input_doc"/>
+
+  <js:text id="input_entry"/>
+
+  <js:submit id="doc">
+   <js:request>
+    <js:method>GET</js:method>
+    <js:ref>Syntelos.fcat("/atom/"+input_doc)+"?entry"+escape(input_entry)</js:ref>
+   </js:request>
+   <js:response>
+    <js:next>doc</js:next>
+   </js:response>
+  </js:submit>
+  <js:submit id="app">
+   <js:script>input.blur();
+   </js:script>
+  </js:submit>
+  <js:submit id="external">
+   <js:script>input.blur();
+   </js:script>
+  </js:submit>
+ </js:page>
+
+ <js:page id="doc">
+  <js:text id="name"/>
+  <js:text id="email"/>
+  <js:text id="summary"/>
+  <js:text id="content" rows="30" cols="60" />
+  <js:submit id="save">
+   <js:script>input.blur();
+   </js:script>
+  </js:submit>
+ </js:page>
+
+</js:client>

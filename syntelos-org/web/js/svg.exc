@@ -1,0 +1,4 @@
+if (!(document instanceof DocumentXBL)){
+    alert("This site requires 'SVG' and 'XBL'.  Please try the 'Firefox' web browser. ");
+    document.location = 'http://www.mozilla.com/firefox/';
+}

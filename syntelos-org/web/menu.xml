@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mm:menu xmlns:mm="http://www.syntelos.com/meta/menu">
+ <mm:menu id="index" label="Syntelos" link="index.xml">
+  <mm:menu id="community" label="Community" link="community.xml"/>
+  <mm:menu id="commercial" label="Commercial" link="commercial.xml"/>
+ </mm:menu>
+ <mm:menu id="login" label="Login" link="login.xml"/>
+</mm:menu>

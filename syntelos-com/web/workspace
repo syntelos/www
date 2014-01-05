@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<w:workspace xmlns:w="http://www.syntelos.org/workspace">
+
+ <w:component id="1" class="org.syntelos.viz.Image$Window" source="images/syn-circ-620x620.png" valign="center" halign="center" />
+
+</w:workspace>

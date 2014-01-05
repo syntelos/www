@@ -1,0 +1,132 @@
+/*
+ * Copyright (c) 2007, John Pritchard
+ * Copyright (c) 2007, Syntelos Software Community Organization
+ * 
+ * All rights reserved.
+ * 
+ * Redistribution and use in source and binary forms, with or
+ * without modification, are permitted provided that the
+ * following conditions are met:
+ * 
+ *     * Redistributions of source code must retain the above
+ *       copyright notice, this list of conditions and the
+ *       following disclaimer.
+ * 
+ *     * Redistributions in binary form must reproduce the above
+ *       copyright notice, this list of conditions and the
+ *       following disclaimer in the documentation and/or other
+ *       materials provided with the distribution.
+ * 
+ *     * Neither the name "Syntelos" nor the names of its
+ *       contributors may be used to endorse or promote products
+ *       derived from this software without specific prior
+ *       written permission.
+ * 
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND
+ * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+ * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+ * OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE,
+ * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ * 
+ */
+
+/*
+ */
+body {
+ background-color: #f0fdf0;
+ border-top: 2px solid #cccccc;
+ background-image: url(/images/syn-circ-150x150.png);
+}
+/*
+ * client
+ */
+.client {
+ color: #505090;
+ background-color: #ffffff;
+}
+div.client {
+ background-color: #ffffff;
+ border: 2px solid #505090;
+}
+input.client {
+ color: #505090;
+ background-color: #ffffff;
+ border: 1px solid #505090;
+}
+/*
+ * client overlay
+ */
+div.client_overlay {
+ background-color: #ffffff;
+ border: 1px solid #505090;
+}
+/*
+ * client overlay alert
+ */
+.client_overlay_alert {
+ color: #505090;
+ background-color: #ffffff;
+}
+input.client_overlay_alert {
+ border: 1px solid #505090;
+}
+div.client_overlay_alert {
+ color: #505090;
+ border: 1px solid #505090;
+}
+/*
+ * tabs
+ */
+td.tab {
+ border-right: 1px solid #cccccc;
+ background-color: #f0f0f0;
+}
+input.tab {
+ border: 0px solid #f0f0f0;
+ color: #a080a0;
+ background-color: #f0fdf0;
+}
+div.tabs_body {
+ background-color: #e0ffe0;
+ background-image: url(/images/syn-circ-150x150.png);
+}
+/*
+ * tools
+ */
+td.tools {
+ background-color: #e0e0e0;
+ color: #808080;
+ border-bottom: 1px solid #cccccc;
+}
+label.tools {
+ color: #505090;
+}
+input.tools {
+ border: 1px solid #505090;
+ color: #505090;
+ background-color: #e0f0e0;
+}
+textarea.tools {
+ background-color: #ffffff;
+}
+input.tools.button {
+ color: #a080a0;
+ border: 1px solid #a080a0;
+ background-color: #f0fdf0;
+}
+input#clock {
+ color: #907090;
+}
+div.tool {
+ border: 2px solid #505090;
+ background-color: #efffef;
+ color: #505090;
+}

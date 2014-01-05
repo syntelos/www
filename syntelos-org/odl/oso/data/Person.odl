@@ -1,0 +1,6 @@
+package oso.data;
+path /people;
+
+class Person version 1 {
+    *unique String logonId;
+}

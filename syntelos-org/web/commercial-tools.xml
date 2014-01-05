@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title>Syntelos / Commercial / Tools</title>
+ </head>
+ <body text="#efefff" bgcolor="#efefef" style="margin: 0; position: fixed; overflow: hidden;">
+  <svg    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1"
+ 	    top="0"
+           left="0"
+	  width="100%"
+         height="100%"
+             id="top"
+       overflow="hidden"
+ preserveAspectRatio="xMaxYMin meet"
+   contentScriptType="text/ecmascript"
+	viewBox="0 0 1600 900">
+   <title>Syntelos / Commercial / Tools</title>
+   <desc>Syntelos Commercial Services</desc>
+
+   <script xlink:type="text/ecmascript" xlink:href="js/syntelos.js"/>
+   <script xlink:type="text/ecmascript" xlink:href="js/syntelos-uri.js"/>
+   <script xlink:type="text/ecmascript" xlink:href="js/syntelos-xc.js"/>
+   <script xlink:type="text/ecmascript" xlink:href="js/syntelos-svg.js"/>
+
+   <svg    x="-300"
+           y="-200"
+       width="2600"
+      height="1900"
+          id="xstar"
+    overflow="hidden"
+ preserveAspectRatio="xMinYMin meet"
+     viewBox="0 0 1600 900">
+    <g id="xstar_g" fill="none" stroke="#f6f6f6">
+     <path id="xstar_x" d="M 200 225 L 600 675 M 200 675 L 600 225" stroke-width="60px"/>
+     <circle id="xstar_x_loop" cx="400" cy="450" r="315"  stroke-width="2px"/>
+     <path id="xstar_star" d="M 500 445 L 680 445 M 545 367 L 635 523 M 545 523 L 635 367" stroke-width="30px"/>
+     <circle id="xstar_star_loop" cx="590" cy="445" r="96"  stroke-width="2px"/>
+    </g>
+   </svg>
+
+   <svg id="menu" x="1" y="1" width="1600" height="200" 
+        font-family="Courier" 
+          font-size="20px" 
+           fg-color="#909f90"
+       border-color="#909090"
+           bg-color="#efefef"
+          box-width="162"
+             onload="Syntelos.SVG.Menu.init(this)"/>
+
+   <svg    x="0"
+           y="0"
+       width="1600"
+      height="900"
+          id="project"
+    overflow="hidden"
+ preserveAspectRatio="xMaxYMin meet"
+     viewBox="0 0 1600 900">
+    <svg    x="768"
+	    y="333"
+	width="1400"
+       height="800"
+	   id="xb_text"
+     overflow="hidden"
+  preserveAspectRatio="xMinYMin meet"
+      viewBox="0 0 1600 900">
+     <rect x="8" y="32" width="852" height="400" fill="#ffffff"/>
+     <path d="M 8 80 l 0 -200 l 0 600 l 40 0 M 858 80 l 0 -200 l 0 600 l -40 0 " fill="none" stroke-width="3px" stroke="#ffffff"/>
+    </svg>
+    <g id="project_text">
+     <text font-family="Verdana" font-size="42px" font-weight="600" fill="#a0a0c0">
+      <tspan x="630" y="106">Syntelos / Commercial / Tools </tspan>
+     </text>
+     <text font-family="Verdana" font-size="36px" fill="#a090a0">
+      <text x="710" onload="Syntelos.SVG.Text.layout(this,38)">
+       <a pointer-events="all" xlink:href="commercial-tools.xml"><text y="200">Online tool services,  </text></a>
+       <a pointer-events="all" xlink:href="commercial-licensing.xml"><text>commercial software licensing,   </text></a>
+       <a pointer-events="all" xlink:href="commercial-support.xml"><text>training and support. </text></a>
+      </text>
+      <text x="844" font-size="26px" fill="#a0a080" onload="Syntelos.SVG.Text.layout(this,28)">
+
+       <text y="420">Workspace </text>
+       <text x="888" font-size="22px">Space and time for building  </text>
+       <text x="888" font-size="22px">web applications. </text>
+
+
+       <text y="520">Tools </text>
+       <text x="888" font-size="22px">Compilers and editors for </text>
+       <text x="888" font-size="22px">building web applications. </text>
+
+      </text>
+
+     </text>
+    </g>
+   </svg>
+  </svg>
+ </body>
+</html>

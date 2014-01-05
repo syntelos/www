@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>constant</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.xmlns</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/</doc:source.file>
+  <doc:source.name>Syntelos_SVG_xmlns</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/xmlns.xml</doc:location>
+ <doc:desc type="text/plain">
+
+  XML Namespace URI string for SVG standard.
+
+ </doc:desc>
+
+</doc:lib.member>

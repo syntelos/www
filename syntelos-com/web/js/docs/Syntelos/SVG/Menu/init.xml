@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc:lib.member xmlns:doc="ns:org/syntelos/js/docs">
+ <doc:lib.type>function</doc:lib.type>
+ <doc:lib.name>Syntelos.SVG.Menu.init</doc:lib.name>
+ <doc:source>
+  <doc:source.file>/js/syntelos.js</doc:source.file>
+  <doc:source.name>Syntelos_SVG_Menu_init</doc:source.name>
+  <doc:source.line></doc:source.line>
+ </doc:source>
+ <doc:location>/js/docs/Syntelos/SVG/Menu/init.xml</doc:location>
+ <doc:desc type="text/plain">
+
+  Construct menu set on element according to attributes of element.
+
+ </doc:desc>
+
+ <doc:param doc:param.name="svg">
+  <doc:param.class>SVGSVGElement</doc:param.class>
+  <doc:desc type="text/plain">
+
+   An 'svg:svg' element.
+
+  </doc:desc>
+ </doc:param>
+
+ <doc:return>
+  <doc:param.class>Void</doc:param.class>
+  <doc:desc type="text/plain">
+
+   None.
+
+  </doc:desc>
+ </doc:return>
+</doc:lib.member>
