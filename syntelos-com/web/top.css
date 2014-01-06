@@ -2,8 +2,9 @@
 body {
  background: #ffffff;
  color: #0066b3;
- margin: 40px 220px;
+ margin: 0;
  font-family: verdana, helvetica, sans-serif;
+ font-size: 12px;
  background-image: url("images/syn-circ-ffffff-0066b3-170x170.png");
  background-repeat: no-repeat;
  background-attachment: fixed;
@@ -22,7 +23,10 @@ a:hover {
  color: #1066b3;
 }
 div.text {
- width: 700px;
+ position: absolute;
+ left: 220px;
+ top: 40px;
+ width: 500px;
  margin-left: 20px;
  margin-right: 20px;
 }
@@ -31,4 +35,42 @@ table.overview {
  margin-right: 0;
  width: 90%;
  border: none;
+}
+div.nav {
+ position: absolute;
+ left: 30px;
+ top: 210px;
+ width: 200px;
+}
+ul.nav {
+ list-style-type: none;
+}
+li.nav {
+ margin: 8px;
+}
+a.nav {
+ font-weight: 900;
+}
+div.home {
+ position: absolute;
+ left: 1%;
+ top: 1%;
+ width: 170px;
+ height: 170px;
+ cursor: pointer;
+}
+div.copyright {
+ position: absolute;
+ left: 20%;
+ bottom: 0;
+ margin: 0;
+ padding: 8px;
+ width: 60%;
+ height: 20px;
+ color: #a0b0c0;
+}
+center#copyright {
+ margin: 0;
+ padding: 0;
+ font-size: 10px;
 }
