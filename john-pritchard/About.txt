@@ -1,0 +1,7 @@
+
+  Gap Data application for www.syntelos.com
+
+  See http://code.google.com/p/gap-data for more info on Gap Data.
+
+  See http://www.syntelos.com/ for more info on Syntelos.
+

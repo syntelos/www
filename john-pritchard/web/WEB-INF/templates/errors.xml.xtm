@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors xmlns="http://gap-data.appspot.com/">{{#error}}
+ <status>{{=error_status}}</status>
+ <type>{{=error_type}}</type>
+ <message>{{=error_message}}</message>
+ <uri>{{=error_uri}}</uri>
+ <exception>{{=error_exception}}</exception>
+ {{/error}}
+</errors>
