@@ -3,12 +3,33 @@ body {
  background: #ffffff;
  color: #0066b3;
  margin: 0;
- font-family: verdana, helvetica, sans-serif;
+ font-family: 'Open Sans', verdana, helvetica, sans-serif;
  font-size: 12px;
  background-image: url("images/syn-circ-ffffff-0066b3-170x170.png");
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-position: 1% 1%;
+}
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 900;
+}
+h6 {
+ font-size: 100%;
+}
+h5 {
+ font-size: 105%;
+}
+h4 {
+ font-size: 110%;
+}
+h3 {
+ font-size: 115%;
+}
+h2 {
+ font-size: 120%;
+}
+h1 {
+ font-size: 125%;
 }
 a {
  text-decoration: none;
